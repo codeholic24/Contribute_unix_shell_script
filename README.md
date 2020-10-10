@@ -1,5 +1,5 @@
 # Contribute_unix_shell_script
-This repository is designed for Developer who wan to contribute Unix shell script. 
+This repository is designed for Developer's who wan to contribute Unix shell script. 
 
 You may come accross lot's of task which took a time for you to come up with the solution.
 
