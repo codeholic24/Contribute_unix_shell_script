@@ -8,7 +8,7 @@ This Repository will contain 1 file called Question_set
 while contributing your developed script just Update the Question_set file with your Question
 for which you are developed script
 
-Basically while raising a pull request you will have 2 things changes 
+Basically while raising a pull request you will have 2 changes 
 - Question_set
 - Your_script
 
