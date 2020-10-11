@@ -1,7 +1,9 @@
 # Add your question's 
 
 Q1 : How to print specific pipe separate row data in vertical format ?
-for example : data will be in file like below 
+for example : 
+data will be in file like below. you just need to pick 
+specific row and convert into vertical format 
 
 1|mumbai|vikky|CSC
 1|delhi|darshan|MBA
