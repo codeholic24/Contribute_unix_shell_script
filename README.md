@@ -3,7 +3,7 @@ This repository is designed for Developer's who wan to contribute Unix shell scr
 
 You may come accross lot's of task which took a time for you to come up with the solution.
 
-such things you can contribute to this repository , so it that it will help other's too.
+such things you can contribute to this repository , so that it will help other's too.
 
 This Repository will contain 1 file called Question_set 
 
