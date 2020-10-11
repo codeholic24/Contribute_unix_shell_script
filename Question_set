@@ -1,10 +1,24 @@
 # Add your question's 
 
-Q1 : How to print specific pipe separate row data in vertical format ?
-for example : 
-data will be in file like below. you just need to pick 
-specific row and convert into vertical format 
+#Q1 : How to print specific pipe separate row data in vertical format ?
 
-1|mumbai|vikky|CSC
-1|delhi|darshan|MBA
+#for example : 
+
+#Data will be in file like below. you just need to pick 
+#specific row and convert into vertical format 
+
+#if i pick 2nd row then entire data which is in second 
+#row sould be printed in vertical format like output 
+#mentioned below
+
+#DATA FILE :
+#1|mumbai|vikky|CSC
+#2|delhi|darshan|MBA
+#3|orissa|raj|MMS
+
+#OUTPUT :
+#2
+#delhi
+#darshan
+#MBA
 ------------------------------------------------------------------------
