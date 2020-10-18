@@ -5,7 +5,7 @@
 # linkedin    : https://www.linkedin.com/in/vikas-bhaskar-vooradi/
 
 # Exporting the parameters from parameter file
-. /f/Contribute_unix_shell_script/Kaun_banega_crorepati_KBC/Parameter
+. /f/Contribute_unix_shell_script/Quiz/Kaun_banega_crorepati_KBC/Parameter
 
 # This function is the heart of the script 
 Welcome_screen() 
