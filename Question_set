@@ -21,6 +21,8 @@
 #delhi
 #darshan
 #MBA
+
+Script Name : convert_pipe_separated2vertical.sh
 ------------------------------------------------------------------------
 Q2 : write a shell script by taking the below scenario as an input 
 # Scenario 
@@ -28,3 +30,12 @@ Q2 : write a shell script by taking the below scenario as an input
 # case 2 : if number is negative convert it to positive and find it is even or odd
 # case 3 : if its a floating number , maybe negative [-2.5] or postive [4.5] exit the process with a msg
 # Note   : This all sceanrio should be covered in only one script 
+Script Name : check_odd_or_even.sh 
+------------------------------------------------------------------------
+Q3 : Write a shell script to create Quiz with Countdown timer
+Script Name : KBC_kuan_banega_crorepati_script.sh
+------------------------------------------------------------------------
+Q4 : Write a Linear Search program using shell script 
+Script Name : Linear_search.sh 
+------------------------------------------------------------------------
+
