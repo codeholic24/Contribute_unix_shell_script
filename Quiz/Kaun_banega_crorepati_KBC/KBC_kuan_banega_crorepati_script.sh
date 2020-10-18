@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Developer   : Vikas B Vooradi 
-# Creation    : 12-10-2020
+# Creation    : 18-10-2020
 # linkedin    : https://www.linkedin.com/in/vikas-bhaskar-vooradi/
 
 # Exporting the parameters from parameter file
