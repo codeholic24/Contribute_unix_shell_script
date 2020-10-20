@@ -164,6 +164,7 @@ echo -n "Please enter size of an array   : "; read array_size
 Linear_Search $search_number $array_size
 
 # -----------------------------------------------------------------
+# -----------------------------------------------------------------
 
 # Output 1 :
 # $ sh Linear_search.sh
@@ -187,6 +188,7 @@ Linear_Search $search_number $array_size
 # Value found : 55 in array list : 23 45 55 23 89
 
 # -----------------------------------------------------------------
+# -----------------------------------------------------------------
 
 # Output 2 :
 # $ sh Linear_search.sh
@@ -197,6 +199,8 @@ Linear_Search $search_number $array_size
 # Value    : r : is defined
 # Error : r is Not a number
 
+# -----------------------------------------------------------------
+# -----------------------------------------------------------------
 
 # Output 3 :
 # $ sh Linear_search.sh
@@ -208,6 +212,7 @@ Linear_Search $search_number $array_size
 # Value   : f : is defined
 # Error : f is Not a number
 
+# -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
 # Output 4 :
@@ -230,7 +235,9 @@ Linear_Search $search_number $array_size
 # Error : dd is Not a number
 
 # -----------------------------------------------------------------
-# Output 3 :
+# -----------------------------------------------------------------
+
+# Output 5 :
 
 # $ sh Linear_search.sh
 
@@ -254,4 +261,29 @@ Linear_Search $search_number $array_size
 # Array Values : 22 56 78 90
 # Number : 32 does not exist in an array
 
+# -----------------------------------------------------------------
+# -----------------------------------------------------------------
+
+# Output 6 :
+
+# $ sh Linear_search.sh
+
+# LINEAR SEARCH
+
+# Please enter your search number : 3
+# Please enter size of an array   : 5
+
+# Value    : 3 : is defined
+# Value   : 5 : is defined
+
+# Count of parameters matched 2 : 2
+
+# Please enter 5 array values :
+
+# ENTER ARRAY NUMBER - 0 : 1
+# ENTER ARRAY NUMBER - 1 : 2
+# ENTER ARRAY NUMBER - 2 : -4
+# Error : -4 is Not a number
+
+# -----------------------------------------------------------------
 # -----------------------------------------------------------------
