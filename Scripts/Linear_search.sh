@@ -2,7 +2,7 @@
 
 # Developer   : Vikas B Vooradi 
 # Creation    : 18-10-2020
-# Parameters  : <InputNumber>
+# Parameters  : P1 = <search_number>  P2 = <array_size>
 # Purpose     : Write a Linear search program using shell script 
 
 Linear_Search()
