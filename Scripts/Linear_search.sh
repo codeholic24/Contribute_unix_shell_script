@@ -64,7 +64,7 @@ Linear_Search()
    exit 0
    fi
    
-   # Calling Function : readInput to check the entered array values are vaild or not , if not the script with exit
+   # Calling Function : readInput to check the entered array values are vaild or not , if not the script will exit
    readInput $array_size 
 
    # Calling Function : To search the given value in the array list 
