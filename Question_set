@@ -42,5 +42,6 @@ Q5 : Write a Binary Search program using shell script
 Script Name : Binary_search.sh 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Q6 : Write a program using bash to find the given number is palindrome or not ?
+Script Name : number_palindrome_or_not.sh
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
