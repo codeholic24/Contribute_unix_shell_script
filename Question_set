@@ -44,4 +44,19 @@ Script Name : Binary_search.sh
 Q6 : Write a program using bash to find the given number is palindrome or not ?
 Script Name : number_palindrome_or_not.sh
 ------------------------------------------------------------------------------------------------------------------------------------------------
+Q7 : write a command to revers the credit card numbers given below   
+
+Input :
+1234 5678 9101 1234  
+2999 5178 9101 2234  
+9999 5628 9201 1232  
+8888 3678 9101 1232
+
+Output :
+1234 9101 5678 1234  
+2234 9101 5178 2999  
+1232 9201 5628 9999  
+1232 9101 3678 8888 
+
+Script Name : reverse_credit_card_numbers.sh
 
