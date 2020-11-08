@@ -1,46 +1,37 @@
 Reference : https://unix.stackexchange.com/questions/618599/how-to-find-non-repetitive-letter-from-a-given-string/618614#618614
 
 ##################################################################################################################
-Approach 1 : 
+Approach 1 : This code submitted by me on above stackoverflow 
 
-#Tested on below string
-
-#String 1: aaabefhhhhhthkkd -> Output -> beftd
-
-#String 2: AAAbefhhhhhThkkD -> Output -> befTD
-
-#String 3: AAAbefhMThkkD -> Output -> befMTD
+#!/bin/bash
 
 # String passed as an input 
-str='aaabefhhhhhthkkd'
+str='AAAbefhMThkkD'
 
 # Taking character count of provided string 
-count=`echo "$str" | tr -cd '[a-z][A-z]' | wc -c`
+count=$(echo "$str" | tr -cd 'a-z|A-Z' | wc -c)
 
 # Dynamic array created 
 dynamic_array=()
 
 # Looping through the for loop 
-for (( i=1 ; i<=$count ; i++ ))
+for (( i=1 ; i<=$((count)) ; i++ ))
 {
-    c=`echo "$str" |  cut -c $i`
-    character_count=`echo "$str" | tr -cd $c | wc -c` 
+    c=$(echo "$str" |  cut -c "$i")
+    character_count=$(echo "$str" | tr -cd "$c" | wc -c) 
     echo "Character : $c  : $character_count" 
 
-   if [ $character_count -eq 1 ]
+   if [ "$character_count" -eq 1 ]
    then  
         dynamic_array+=("$c")   
    fi           
 }
 
-echo ""
+str_array_value="${dynamic_array[*]}" ; echo "Output : ${str_array_value// /}" 
 
-# Printing characters stored in an array 
-str_array_value=`echo ${dynamic_array[@]}`
-
-# Replaced blank / space with none [squeez]
-var=`echo $str_array_value | sed 's/[[:blank:]]//g'`
-echo "Output : $var"
+# Input :  aaabefhhhhhthkkd : Output : beftd 
+# Input :  AAAbefhhhhhThkkD : Output : befTD
+# Input :  AAAbefhMThkkD    : Output : befMTD
 
 ##################################################################################################################
 
