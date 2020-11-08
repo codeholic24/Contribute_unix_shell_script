@@ -80,4 +80,9 @@ Output :
 Script Name : mask_credit_card_numbers.sh
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
+Q9 : How to print every Nth character of a string? OR How to print 2nd consecutive letter as an output from a given string
+     Reference : Stackoverflow : https://unix.stackexchange.com/questions/612993/how-to-print-every-nth-character-of-a-string
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
